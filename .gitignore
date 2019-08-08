@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/django
-# Edit at https://www.gitignore.io/?templates=django
+# Created by https://www.gitignore.io/api/django,elasticbeanstalk
+# Edit at https://www.gitignore.io/?templates=django,elasticbeanstalk
 
 ### Django ###
 *.log
@@ -7,9 +7,12 @@
 *.pyc
 __pycache__/
 local_settings.py
-media
 
 
+### ElasticBeanstalk ###
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml 
+!.elasticbeanstalk/*.global.yml
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
