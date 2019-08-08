@@ -27,7 +27,7 @@ SECRET_KEY = '2auw%bv8qz45-rif5p=z#nru#110-llo%q26s(uy0j#jhemjy9'
 #DEBUG = True
 DEBUG = True
 
-ALLOWED_HOSTS = ['blog-env.zipcbyc6uz.us-west-2.elasticbeanstalk.com','*']
+ALLOWED_HOSTS = ['blog-env.svbrnndmsu.us-west-2.elasticbeanstalk.com','*']
 
 
 # Application definition
